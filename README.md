@@ -10,7 +10,9 @@
 * play session score tracking
 * window flashing alert to signal player turn
 
+
 Players play by choosing start ( for start a server ) or join ( for join server ), program uses a multicast address to send a udp handshake packet for the initial connection, then switches to tcp for the remainder.
+
 =
 ![c4game_start](https://cloud.githubusercontent.com/assets/6975806/4513767/519c2a18-4b53-11e4-9d4d-72d2e5ddba55.png)
 =
